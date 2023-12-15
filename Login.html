@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="stylingLogin.css">
+</head>
+<body>
+    <div>
+        <h1>
+            <img src="https://cdn-icons-png.flaticon.com/512/5087/5087579.png">
+        </h1>
+    </div>
+
+    <div>
+       
+        <form class="form">
+            <br/>
+            <div>
+                <br/>
+                <label style="margin-left:90px;"><strong>Username:</strong></label>
+                <input type="email" required class="box1">
+            </div>
+            <br/>
+            <div>
+                <label style="margin-left:90px;"><strong>Password:</strong></label>
+                <input type="text" required pattern="^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{8,}$" class="box1">
+            </div>
+            <br/>
+
+            <div>
+                <button type="submit">
+                    <strong>Login  </strong>
+                </button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

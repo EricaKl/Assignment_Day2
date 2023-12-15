@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="styling.css" rel="stylesheet">
+</head>
+<body>
+    
+    <div class="header">
+        <h2>Registration Form</h2>
+    </div>
+    <div>
+        <form>
+            <table>
+                <tr>
+                    <br/>
+                    <br/>
+                    <br/>
+                    <td> <label><strong>First Name:</strong></label></td>
+                    <td> <input type="text" placeholder="" class="box1" required></td>
+                    
+                    <td><label><strong>Last Name:</strong></label></td>
+                    <td> <input type="text" placeholder="" class="box1" required></td>
+                   
+                </tr>
+               
+                <tr>
+                    <td> <label><strong>Email:</strong></label></td>
+                    <td> <input type="email" placeholder="" class="box1" required></td>
+
+                    <td> <label><strong>Password:</strong></label></td>
+                    <td> <input type="password" placeholder="" class="box1"  pattern="^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{8,}$" required></td>
+                   
+                </tr>
+                
+                 <tr>
+                    <td><label><strong>DoB:</strong></label></td>
+                    <td> <input type="date" required class="box1"></td>
+                    
+                    <td><label><strong>Day of the week: </strong></label></td>
+                    <td><select required style="box-shadow: 3px 3px 8px #59b2d0ea;">
+                        <option selected disabled value="">Choose</option>
+                        <option value="1">Sunday</option>
+                        <option value="2">Monday</option>
+                        <option value="3">Tuesday</option>
+                        <option value="4">Wednesday</option>
+                        <option value="5">Thursday</option>
+                        <option value="6">Friday</option>
+                        <option value="7">Saturday</option>
+                    </select></td>
+
+                    
+                 </tr> 
+                 <tr>
+                    <td><label><strong>Languages:</strong></label></td>
+                    <td>
+                        C<input type="checkbox">
+                        C++<input type="checkbox">
+                        JAVA<input type="checkbox">
+                        Python<input type="checkbox">
+                    </td>
+
+                    
+                    <td><label for="Qualification"><strong>Qualification:</strong></label></td>
+                    <td>
+                        Under Graduate <input type="checkbox">
+                        Post Graduate <input type="checkbox">
+                        
+                    </td>
+                 </tr>
+                 
+                 
+            </table>
+            <div>
+                <button type="submit" style="float:right; margin-top:60px; margin-right:50px; font-size:medium;"><strong>Sign Up</strong></button>
+            </div>
+            
+        </form>
+        <br/>
+        
+    </div>
+</body>
+</html>
